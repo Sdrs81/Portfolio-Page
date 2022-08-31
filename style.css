@@ -16,6 +16,21 @@ ul {
     list-style-type: none;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -90,6 +105,7 @@ header {
     padding-top: 5rem;
     text-align: center;
     padding-bottom: 4rem;
+    color: #fff;
 }
 
 .container img {
@@ -98,37 +114,49 @@ header {
     margin-bottom: 1rem;
 }
 
-header h2 {
-    font-size: 3rem;
-    color: #fff;
-}
-
-header h3 {
-    font-size: 2rem;
-    color: #fff;
-}
-
 /* ----- About Section ----- */
 .about {
+    width: 100%;
     background-color: #1ABC9B;
     color: #fff;
-    text-align: center;
 }
 
-.about h2 {
-    font-size: 4rem;
+/* ----- Projects Section ----- */
+.projects{
+    background-color: #2C3E4F;
+    color: #fff;
 }
 
-.about h3 {
-    font-size: 3rem;
+.projects img{
+    width: 50%;
 }
 
-.about p {
-    font-size: 2rem;
-    padding-top: 2rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
+.button-Github{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #2C3E4F;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    transition: all 0.5s;
 }
+
+.button-Github:hover {
+    background-color: white;
+    color: #2C3E4F;
+    cursor: pointer;
+}
+
+.button-Github a {
+    color: white;
+    font-weight: 600;
+}
+
+.button-Github:hover a {
+    color: #2C3E4F;
+}
+
+
 
 
 
