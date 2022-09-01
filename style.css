@@ -122,16 +122,16 @@ header {
 }
 
 /* ----- Projects Section ----- */
-.projects{
+.projects {
     background-color: #2C3E4F;
     color: #fff;
 }
 
-.projects img{
+.projects img {
     width: 50%;
 }
 
-.button-Github{
+.button-Github {
     margin-top: 2rem;
     padding: 1rem;
     background-color: #2C3E4F;
@@ -156,7 +156,55 @@ header {
     color: #2C3E4F;
 }
 
+/* ----- Projects Section ----- */
+.contact {
+    background-color: #fff;
+    color: #2C3E4F;
+}
+
+.contact hr {
+    border-color: #2C3E4F;
+    margin-bottom: 4rem;
+}
+
+.form-group {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group .form-item {
+    border-bottom: 2px solid #2C3E4F;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+.form-item input,
+.form-item textarea {
+    border: none;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.form-item input:focus,
+.form-item textarea:focus {
+    outline: 0;
+}
 
 
+.button-send {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid #2C3E4F;
+    color: #2C3E4F;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
 
-
+.button-send:hover {
+    background-color: #2C3E4F;
+    color: white;
+    cursor: pointer;
+}
