@@ -80,13 +80,13 @@ nav {
     background-color: #2C3E4F;
     position: sticky;
     top: 0;
-    bottom: 8rem;
     z-index: 500;
 }
 
 .HeaderOfNavbar {
     float: left;
     margin: 2rem;
+    margin-bottom: 0.8rem;
     margin-left: 5rem;
 }
 
@@ -99,6 +99,7 @@ nav {
 .navbarMenus {
     float: right;
     margin: 3.1rem;
+    margin-top: 3.5rem;
     margin-right: 5rem;
 }
 
@@ -118,17 +119,12 @@ nav {
     transition: all 0.6s;
 }
 
-.navbar-menu .menu-link:hover {   
+.navbar-menu .menu-link:hover {
     border-color: #fff;
     color: #2C3E4F;
     background-color: #fff;
 }
 
-/* 
-.menu-icon {
-    display: none;
-}
-*/
 /* ----- Header ----- */
 header {
     background-color: #B7C5FF;
@@ -275,7 +271,37 @@ header {
     text-align: center;
 }
 
-.copyright small{
+.copyright small {
     font-size: 1.2rem;
 }
 
+/* Breakpoints for Responsive design */
+@media (max-width: 1000px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 700px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 5px;
+    }
+}

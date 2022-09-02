@@ -29,13 +29,8 @@
                 <a href="#" class="header-link text-uppercase">Portfolio Page</a>
             </div>
 
-            <div class="navbarMenus">
+            <div class="navbarMenus responsive">
                 <ul>
-                    <li class="navbar-menu">
-                        <a href="#" class="menu-link text-uppercase menu-icon">
-                            <i class="fa-solid fa-circle-chevron-down"></i>
-                        </a>
-                    </li>
                     <li class="navbar-menu">
                         <a href="#about" class="menu-link text-uppercase">About</a>
                     </li>
@@ -139,6 +134,17 @@
             <small>Copyright ©Portfolio Page 2022</small>
         </div>
     </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(".menu-icon").click(function(){
+            $(".navbarMenus").toggleClass("responsive");
+            return false;
+        }); 
+
+    </script>
 
 </body>
 
